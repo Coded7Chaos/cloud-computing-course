@@ -8,6 +8,12 @@ Esta página introduce los conceptos esenciales de la computación en la nube: s
 
 ---
 
+# Nicole Rodas
+
+Realmente no sé qué escribir para pues describirme. Pero ammm, igual es un ejemplo. 
+
+---
+
 ## Evolución hacia Cloud
 
 La computación en la nube es el resultado de una evolución técnica y de negocio a lo largo de décadas:
