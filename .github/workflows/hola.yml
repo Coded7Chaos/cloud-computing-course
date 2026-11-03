@@ -17,6 +17,6 @@ jobs:
               with:
                 node-version: '22'
             - name: saludar
-              run: echo "Hola desde github actions"
+              run: echo "Hola! Mi proyecto es Rutikal, o eso estamos pensando jeje"
             - name: Consultar version
               run: node --version
