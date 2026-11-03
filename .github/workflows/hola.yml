@@ -1,16 +1,22 @@
-name: Hola Actions
-on: [push]
-permissions:
-  contents: read
+name: Hola actions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions: 
+    contents: read
 jobs:
-  saludar:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Preparar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Saludar
-        run: echo "Hola desde GitHub Actions"
-      - name: Consultar versión
-        run: node --version
+    saludar:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Preparar Node.js
+              uses: actions/setup-node@v4
+              with:
+                node-version: '22'
+            - name: saludar
+              run: echo "Hola desde github actions"
+            - name: Consultar version
+              run: node --version
