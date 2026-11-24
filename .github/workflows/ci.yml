@@ -17,5 +17,9 @@ jobs:
                   node-version: '22'
             - name: Instalar dependencias
               run: npm ci
+            - name: Comprobar tipos
+              run: npm run typecheck
+            - name: Ejecutar pruebas
+              run: node --test
             - name: Compilar sitio
               run: npm run build
