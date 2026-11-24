@@ -54,3 +54,5 @@ Edita en `docusaurus.config.ts`:
 - `projectName`: nombre del repositorio
 
 Así la URL final será `https://TU-USUARIO.github.io/NOMBRE-REPO/`.
+
+NUEVA FRASE PARA CAMBIOS EN RAMA PRACTICA-EVENTOS
