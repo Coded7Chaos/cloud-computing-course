@@ -33,7 +33,7 @@ Material en el apartado **AWS**:
 
 ### CI/CD con GitHub Actions
 
-- [Introducción a CI/CD](./cicd/introduccion.md)
+- [Introducción a BOLIVIA](./cicd/introduccion.md)
 - [Conceptos de GitHub Actions](./cicd/conceptos-github-actions.md)
 - [Mi primer workflow](./cicd/primer-workflow.md)
 - [Eventos que activan workflows](./cicd/eventos.md)
